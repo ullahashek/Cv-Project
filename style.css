@@ -1,0 +1,142 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: 'Roboto', sans-serif;
+   background: #EEE;
+}
+#container{
+   max-width: 1000px;
+   padding: 20px;
+   background: #E4F9F5;
+   margin: 0 auto;
+}
+header{
+
+}
+.profile_img{
+   width: 100px;
+   height: 120px;
+   border: 3px solid white;
+   border-radius: 50%;
+   float: left;
+}
+.header_bio{
+   float: left;
+   padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+   color: #11999e;
+}
+p{
+   font-size: 18px;
+}
+.header_contact{
+   float: right;
+   padding: 30px;
+}
+.header_contact a{
+   text-decoration: none;
+   color: teal;
+   font-weight: bold;
+}
+.header_contact a:hover{
+   text-decoration: underline;
+   color: tomato;
+}
+#clear_div{
+   clear: both;
+}
+hr{
+   border: 3px solid black;
+   width: 100%;
+   margin: 30px auto;
+   border-bottom: none;
+}
+/* carrer objective section start  */
+#carrer_objective{}
+#carrer_objective p{
+   line-height: 30px;
+}
+/* Personal Section Start */
+#personal_section{}
+.content{}
+.left_div{
+   width: 30%;
+   float: left;
+}
+.right_div{
+   width: 70%;
+   float: left;
+}
+.common_hr{
+   border: 1px solid black;
+   border-bottom: none;
+   width: 100%;
+   margin: 40px auto;
+}
+/* education section start */
+.edu_template_left{
+   float: left;
+   width: 45%;
+   
+}
+.edu_template_left p, h3, h5 {
+   margin: 3px 0px;
+}
+.edu_template_right{
+   float: right;
+   width: 45%;
+}
+.edu_template_right p, h3, h5 {
+   margin: 3px 0px;
+}
+/* key_competencies section star */
+#key_competencies{}
+#key_competencies p{
+   line-height: 40px;
+}
+/* language proficiency start */
+#language_profinciency{}
+#language_profinciency table{
+   border: 1px solid black;
+   width: 100%;
+   border-collapse: collapse;
+   
+}
+#language_profinciency th, td{
+   border: 1px solid black;
+   text-align: center;
+   padding: 8px;
+}
+/* certification start */
+#certification{}
+#certification p{
+   line-height: 30px;
+}
+/* footer start */
+.footer_content{
+   background-color: black;
+   padding: 15px;
+   text-align: center;
+}
+.footer_content a{
+   color: white;
+   margin: 10px;
+   text-decoration: none;
+}
+.footer_content a:hover{
+   padding: 5px;
+   text-decoration: underline;
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+}
+.footer_content p{
+   color: white;
+   margin-top: 10px;
+}
+
+
+
